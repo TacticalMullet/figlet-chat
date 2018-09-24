@@ -1,5 +1,5 @@
 #!/usr/bin/env/python3
-""" Usage: python3 dankmemes.py "lol" "haha" "rip" | pbcopy"""
+""" Usage: python3 slackmemes.py "lol" "haha" "rip" | pbcopy"""
 import sys,subprocess, re
 positive = ':{}:'.format(sys.argv[1])
 negative = ':{}:'.format(sys.argv[2])
